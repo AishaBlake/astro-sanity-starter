@@ -35,7 +35,7 @@ const { quote, author, theme, hasBorder, class: className, 'data-sb-field-path':
                 </div>
             )
         }
-        {quote && <blockquote class="text-lg sm:text-xl" data-sb-field-path=".quote" set:html={marked.parse(quote)} />}
+        {quote && <p class="text-lg sm:text-xl" data-sb-field-path=".quote" set:html={marked.parse(quote)} />}
         {
             author && (
                 <div class="flex flex-col gap-4 mt-4" data-sb-field-path=".author">
