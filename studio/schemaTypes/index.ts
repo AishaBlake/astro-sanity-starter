@@ -13,6 +13,7 @@ import heroSection from './heroSection'
 import logosSection from './logosSection'
 import page from './page'
 import person from './person'
+import {postType} from './postType'
 import siteConfig from './siteConfig'
 import testimonial from './testimonial'
 import testimonialsSection from './testimonialsSection'
@@ -33,6 +34,7 @@ export const schemaTypes = [
   logosSection,
   page,
   person,
+  postType,
   siteConfig,
   testimonial,
   testimonialsSection,
